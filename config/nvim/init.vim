@@ -22,6 +22,7 @@ Plug 'cespare/vim-toml'
 Plug 'chriskempson/base16-vim'
 Plug 'itchyny/lightline.vim'
 
+Plug 'simeji/winresizer'
 Plug 'christoomey/vim-tmux-navigator'
 
 call plug#end()
