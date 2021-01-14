@@ -1,0 +1,23 @@
+{
+    "diagnostic.errorSign": "✘",
+    "diagnostic.warningSign": "⚠",
+
+    "coc.preferences.formatOnSaveFiletypes": [
+        "javascript",
+        "typescript",
+        "html",
+        "go",
+        "rust"
+    ],
+
+    "javascript.format.enabled": false,
+    "typescript.format.enabled": false,
+
+    "prettier.formatterPriority": 999,
+    "prettier.tabWidth": 4,
+    "prettier.singleQuote": false,
+    "prettier.semi": true,
+    "prettier.arrowParens": "avoid",
+    "prettier.trailingComma":"all",
+    "prettier.bracketSpacing": false
+}
