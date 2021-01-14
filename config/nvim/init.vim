@@ -8,6 +8,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
+
 Plug 'rhysd/vim-clang-format'
 
 Plug 'tpope/vim-surround'
