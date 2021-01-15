@@ -26,6 +26,7 @@ Plug 'itchyny/lightline.vim'
 
 Plug 'simeji/winresizer'
 Plug 'christoomey/vim-tmux-navigator'
+Plug 'justinmk/vim-sneak'
 
 call plug#end()
 
