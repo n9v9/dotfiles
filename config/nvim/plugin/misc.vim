@@ -1,5 +1,3 @@
-inoremap jj <ESC>
-
 " Create the .netrwhist file only in the users home directory, not in every
 " directory where vim opens.
 let g:netrw_home='~'
