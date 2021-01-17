@@ -21,11 +21,12 @@ set -x PATH $PATH "$HOME/.node_modules/bin"
 
 abbr -a o xdg-open
 
-# Base16 Shell
-# First: git clone https://github.com/chriskempson/base16-shell.git ~/.config/base16-shell
 if status --is-interactive
-    set BASE16_SHELL "$HOME/.config/base16-shell/"
-    source "$BASE16_SHELL/profile_helper.fish"
+    # Only apply the theme if we are not inside tmux, otherwise the colors are messed up.
+    set -q TMUX
+    if [ $status -ne 0 ]
+        theme_gruvbox dark hard
+    end
 end
 
 # edit config neovim

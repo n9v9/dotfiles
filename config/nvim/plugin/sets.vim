@@ -31,6 +31,5 @@ set ignorecase
 set colorcolumn=100
 set signcolumn=yes
 
-set cmdheight=2
 set updatetime=200
 set shortmess+=c

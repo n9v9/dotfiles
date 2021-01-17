@@ -21,8 +21,9 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'dag/vim-fish'
 Plug 'cespare/vim-toml'
 
-Plug 'chriskempson/base16-vim'
-Plug 'itchyny/lightline.vim'
+Plug 'gruvbox-community/gruvbox'
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
 
 Plug 'simeji/winresizer'
 Plug 'christoomey/vim-tmux-navigator'
