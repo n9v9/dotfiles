@@ -19,5 +19,7 @@
     "prettier.semi": true,
     "prettier.arrowParens": "avoid",
     "prettier.trailingComma":"all",
-    "prettier.bracketSpacing": false
+    "prettier.bracketSpacing": false,
+
+    "rust-analyzer.checkOnSave.command": "clippy"
 }
