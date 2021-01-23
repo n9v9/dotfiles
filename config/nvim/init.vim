@@ -24,6 +24,7 @@ Plug 'cespare/vim-toml'
 Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+Plug 'sheerun/vim-polyglot'
 
 Plug 'simeji/winresizer'
 Plug 'christoomey/vim-tmux-navigator'
