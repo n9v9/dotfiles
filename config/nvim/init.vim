@@ -9,6 +9,7 @@ Plug 'junegunn/fzf.vim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
+Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
 
 Plug 'rhysd/vim-clang-format'
 
