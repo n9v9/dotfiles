@@ -11,6 +11,10 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
 
+Plug 'dense-analysis/ale'
+Plug 'OmniSharp/omnisharp-vim'
+Plug 'sirver/UltiSnips'
+
 Plug 'rhysd/vim-clang-format'
 
 Plug 'tpope/vim-surround'
