@@ -25,6 +25,7 @@ Plug 'jiangmiao/auto-pairs'
 
 Plug 'dag/vim-fish'
 Plug 'cespare/vim-toml'
+Plug 'fatih/vim-go'
 
 Plug 'gruvbox-community/gruvbox'
 Plug 'vim-airline/vim-airline'

@@ -8,6 +8,7 @@ set -x BAT_THEME "base16"
 set -x DOTNET_CLI_TELEMETRY_OPTOUT 1
 set -x TERM "xterm-256color"
 
+set -x GOROOT "/usr/local/go"
 set -x GOPATH "$HOME/go"
 set -x GOBIN "$GOPATH/bin"
 set -x PATH $PATH $GOBIN

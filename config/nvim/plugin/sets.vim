@@ -4,6 +4,7 @@ set shiftwidth=4
 set expandtab
 
 set hidden
+set autowrite
 
 set splitright
 set splitbelow
