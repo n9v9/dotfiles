@@ -10,6 +10,9 @@ let g:coc_global_extensions=[
 \ 'coc-markdownlint',
 \]
 
+let g:coc_fzf_preview=''
+let g:coc_fzf_opts=[]
+
 function! s:initCoc()
     " ALE is only used for non coc things, atm only C# with OmniSharp.
     let g:ale_enabled=0
