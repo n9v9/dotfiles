@@ -35,7 +35,6 @@ Plug 'sheerun/vim-polyglot'
 Plug 'simeji/winresizer'
 Plug 'szw/vim-maximizer'
 Plug 'christoomey/vim-tmux-navigator'
-Plug 'justinmk/vim-sneak'
 
 call plug#end()
 
