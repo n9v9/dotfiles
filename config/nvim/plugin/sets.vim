@@ -12,7 +12,7 @@ set splitbelow
 set number
 set relativenumber
 
-set guicursor=
+set guicursor=a:blinkon0
 
 set nohlsearch
 set incsearch

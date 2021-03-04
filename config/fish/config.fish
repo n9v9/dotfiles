@@ -16,6 +16,7 @@ set -x PATH $PATH $GOBIN
 set -x PATH $PATH "/usr/local/bin"
 set -x PATH $PATH "/usr/local/go/bin"
 set -x PATH $PATH "$HOME/.cargo/bin"
+set -x PATH $PATH "$HOME/.local/bin"
 
 # Allow system wide installation of npm and yarn packages without sudo.
 set -x npm_config_prefix "$HOME/.node_modules"
