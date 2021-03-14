@@ -36,3 +36,8 @@ set signcolumn=yes
 
 set updatetime=200
 set shortmess+=c
+
+" Change splits from horizontal to vertical.
+noremap <leader>\| <c-w>t<c-w>H
+" Change splits from vertical to horizontal.
+noremap <leader>- <c-w>t<c-w>K
