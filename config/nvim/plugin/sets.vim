@@ -32,6 +32,7 @@ set smartcase
 set ignorecase
 
 set colorcolumn=100
+set textwidth=100
 set signcolumn=yes
 
 set updatetime=200
