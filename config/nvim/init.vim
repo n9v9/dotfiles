@@ -16,17 +16,11 @@ Plug 'airblade/vim-rooter'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
 
-Plug 'dense-analysis/ale'
-Plug 'OmniSharp/omnisharp-vim'
-Plug 'sirver/UltiSnips'
-
 Plug 'rhysd/vim-clang-format'
 
 Plug 'tpope/vim-surround'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-commentary'
-
-Plug 'jiangmiao/auto-pairs'
 
 Plug 'dag/vim-fish'
 Plug 'cespare/vim-toml'
