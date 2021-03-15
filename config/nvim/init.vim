@@ -4,11 +4,13 @@ let mapleader=' '
 
 call plug#begin('~/.vim/plugged')
 
-Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
-Plug 'junegunn/fzf.vim'
+" Telescope.nvim requirements
+Plug 'nvim-lua/popup.nvim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'nvim-telescope/telescope.nvim'
+Plug 'nvim-telescope/telescope-fzy-native.nvim'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'antoinemadec/coc-fzf', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
 
 Plug 'dense-analysis/ale'
