@@ -11,6 +11,8 @@ require('telescope').setup {
                 ["<C-j>"] = actions.move_selection_next,
                 ["<C-k>"] = actions.move_selection_previous,
                 ["<C-h>"] = actions.file_split,
+                ["<TAB>"] = actions.toggle_selection + actions.move_selection_next,
+                ["<S-TAB>"] = actions.toggle_selection + actions.move_selection_previous,
                 ["<C-p>"] = false,
                 ["<C-n>"] = false,
                 ["<C-t>"] = false,

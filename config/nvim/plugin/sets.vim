@@ -42,3 +42,6 @@ set shortmess+=c
 noremap <leader>\| <c-w>t<c-w>H
 " Change splits from vertical to horizontal.
 noremap <leader>- <c-w>t<c-w>K
+
+" Goto previous buffer.
+noremap <leader>f :e #<CR>
