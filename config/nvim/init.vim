@@ -4,11 +4,14 @@ let mapleader=' '
 
 call plug#begin('~/.vim/plugged')
 
-" Telescope.nvim requirements
+" Telescope.nvim finder requirements.
 Plug 'nvim-lua/popup.nvim'
 Plug 'nvim-lua/plenary.nvim'
 Plug 'nvim-telescope/telescope.nvim'
 Plug 'nvim-telescope/telescope-fzy-native.nvim'
+
+" Automagically change into the correct directory.
+Plug 'airblade/vim-rooter'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'iamcco/markdown-preview.nvim', {'do': 'cd app && yarn install'}
